@@ -9,10 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>ex1</module>
-        <module>ex2</module>
-        <module>ex3</module>
-        <module>ex4</module>
+        <module>ex1(baseBean)</module>
+        <module>ex2(configuration)</module>
+        <module>ex3(postConstruct)</module>
+        <module>ex4(registerBean)</module>
+        <module>sq-ch3-ex1</module>
     </modules>
 
     <properties>
