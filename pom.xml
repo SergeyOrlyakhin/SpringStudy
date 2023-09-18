@@ -15,6 +15,8 @@
         <module>ex4(registerBean)</module>
         <module>sq-ch3-ex1</module>
         <module>sq-ch3-ex2</module>
+        <module>sq-ch3-ex3</module>
+        <module>sq-ch3-ex4</module>
     </modules>
 
     <properties>
