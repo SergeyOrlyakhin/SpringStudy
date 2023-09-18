@@ -14,6 +14,7 @@
         <module>ex3(postConstruct)</module>
         <module>ex4(registerBean)</module>
         <module>sq-ch3-ex1</module>
+        <module>sq-ch3-ex2</module>
     </modules>
 
     <properties>
