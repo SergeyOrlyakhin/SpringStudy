@@ -4,11 +4,11 @@ import models.Comment;
 import proxies.CommentNotificationProxy;
 import repositories.CommentRepository;
 
-public class CoommentService {
+public class CommentService {
     private final CommentNotificationProxy notificationProxy;
     private final CommentRepository commentRepository;
 
-    public CoommentService(CommentNotificationProxy notificationProxy, CommentRepository commentRepository) {
+    public CommentService(CommentNotificationProxy notificationProxy, CommentRepository commentRepository) {
         this.notificationProxy = notificationProxy;
         this.commentRepository = commentRepository;
     }

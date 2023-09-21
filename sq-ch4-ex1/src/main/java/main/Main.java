@@ -3,7 +3,7 @@ package main;
 import models.Comment;
 import proxies.EmailCommentNotificationProxy;
 import repositories.DBCommentRepository;
-import services.CoommentService;
+import services.CommentService;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Main {
         comment.setAuthor("Lola");
         comment.setText("Hello spring");
 
-        CoommentService coommentService = new CoommentService(emailCommentNotificationProxy, dBCommentRepository);
-        coommentService.publishComment(comment);
+        CommentService commentService = new CommentService(emailCommentNotificationProxy, dBCommentRepository);
+        commentService.publishComment(comment);
     }
 }
